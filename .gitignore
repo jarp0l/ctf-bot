@@ -127,3 +127,9 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+
+# Custom
+bot-env/
+docker/db-data/
+*.bak
