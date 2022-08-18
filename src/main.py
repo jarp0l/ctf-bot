@@ -375,7 +375,7 @@ async def submit_flag(ctx, challenge_id, flag):
         )
 
     else:
-        await ctx.channel.send("That was incorrect. Do try again.")
+        await ctx.channel.send("That was incorrect. Try again?")
 
         async with conn.transaction():
             await conn.execute(
