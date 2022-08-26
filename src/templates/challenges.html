@@ -11,6 +11,12 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css"
     />
+
+    <style>
+      .card:hover {
+        box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+      }
+    </style>
   </head>
   <body>
     <section class="section">
@@ -19,22 +25,20 @@
       <div class="columns">
         {% for challenge in challenges %}
         <div class="column">
-          <div class="card">          
+          <div class="card">
             <div class="card-content">
-                <div class="media-content">
-                  <p class="title is-5">Challenge {{challenge.challenge_id}}</p>
-                </div>
+              <div class="media-content">
+                <p class="title is-5">Challenge {{challenge.challenge_id}}</p>
+              </div>
 
               <div class="content">
                 <p class="subtitle is-7">{{challenge.category}}</p>
 
                 {{challenge.challenge_description}}
-                <br>
+                <br />
               </div>
             </div>
           </div>
-
-
         </div>
         {% endfor %}
       </div>
