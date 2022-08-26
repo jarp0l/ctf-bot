@@ -1,4 +1,4 @@
-#!./bot-env/bin/python3
+#!/bin/env python3
 # top
 import os
 import nextcord  # For discord
@@ -502,7 +502,7 @@ async def _agree(ctx, rollnum_nickname):
                 added_on,
                 message_id
             )
-            VALUES ( $1, $2 , $3, $4)
+            VALUES ($1, $2 , $3, $4)
             """,
             ctx.author.id,
             rollnum_nickname,

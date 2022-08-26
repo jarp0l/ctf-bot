@@ -4,6 +4,8 @@ asyncpg
 black
 flask
 nextcord
+psycopg2
 python-dotenv
 pytz
 requests
+sqlalchemy
