@@ -100,7 +100,7 @@ async def on_member_join(member):
      \\***#rules: ** *rules you **must** follow everywhere on this server*
      \\*and all the other channels actually :smile:
 
-    Please remember that you will not be able to add challenges and submit flags for our CTF challenges until you send a message with your 'rollnumber and nickname' to our bot 'Flafla'. 
+    Please remember that you will not be able to add challenges and submit flags for our CTF challenges until you send a message with your 'rollnumber and nickname' to our bot 'ctf-bot'. 
     This is the format you should follow: `-accept <rollnum_nickname>`. 
     For example: 
     `-accept 076BEI049_nickname` 
