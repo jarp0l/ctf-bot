@@ -518,7 +518,7 @@ async def _agree(ctx, rollnum_nickname):
 
 
 # ----------------------------------------------------------------------------
-
+'''
 # check
 @bot.command(aliases=["check-in"])
 async def check(ctx, rollnum_nickname):
@@ -560,7 +560,7 @@ async def check(ctx, rollnum_nickname):
         f":partying_face: Congratulations {ctx.author.mention}, I added you to our database!\nBy the way, this is what I added: {rollnum_nickname}"
     )
 
-
+'''
 # ----------------------------------------------------------------------------
 
 # extra
