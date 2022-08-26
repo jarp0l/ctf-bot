@@ -10,7 +10,7 @@ import json, logging, asyncpg, pytz, traceback
 import hashlib  # for hashing flag
 from dotenv import load_dotenv
 
-from web_server import server
+from server import server_thread
 from constants import colors, description
 
 NPT = pytz.timezone("Asia/Kathmandu")
@@ -677,7 +677,7 @@ async def on_command_error(ctx, error):
 # ----------------------------------------------------------------------------
 
 
-# server()
+server_thread()
 bot.run(bot.config_token)  # Runs our bot
 
 # END

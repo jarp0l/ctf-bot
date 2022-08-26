@@ -1,8 +1,9 @@
 aiohttp
 asyncio
 asyncpg
+black
+flask
 nextcord
 python-dotenv
 pytz
-quart
 requests
